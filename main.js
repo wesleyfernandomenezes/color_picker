@@ -22,7 +22,7 @@ function changeColor () {
     let green = document.querySelector ('input.green').value;
     let blue = document.querySelector ('input.blue').value;
     let box = document.querySelector ('.box_color')
-    let color = 'rgb(' + red + ',' + green + ',' + blue +') ';
+    let color = `rgb(${red}, ${green}, ${blue})`;
   
     box.style.background = color;
 }
